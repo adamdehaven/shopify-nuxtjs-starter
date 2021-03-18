@@ -2,7 +2,7 @@ const env = require("dotenv").config();
 import ShopifyService from "./services/ShopifyService";
 
 export default {
-  mode: "universal",
+  target: "server",
 
   router: {
     middleware: "checkout"
